@@ -1,0 +1,8 @@
+.container {
+  display: flexs;
+  padding: 0 45%;
+}
+.container .opcoes {
+  display: flex;
+  flex-direct: column;
+}/*# sourceMappingURL=perfilPaciente.module.css.map */
