@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+}
+.container .paciente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 100%;
+}
+.container .medico {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #68a797;
+  width: 100%;
+}
+.container button {
+  border: 5px solid #506175;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.container a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.medico_button {
+  height: 4rem;
+  width: 10rem;
+  background-color: #76bfac;
+}
+
+.paciente_button {
+  height: 4rem;
+  width: 10rem;
+  background-color: #FFF;
+}/*# sourceMappingURL=home.module.css.map */

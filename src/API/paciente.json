@@ -1,0 +1,45 @@
+{
+    "paciente": {
+        "nome": "Lorem Pereira",
+        "codigo": "01",
+        "foto": "url_da_foto_do_paciente.jpg"
+    },
+    "consultas": [
+      {
+        "medico": {
+            "nome": "Rodolfo Json da Silva",
+            "CRM" : "01",
+            "foto": "url_da_foto_do_medico.jpg"
+        },
+        "data": "01/11/2020",
+        "remediosPrescritos": [
+            "Doralgina",
+            "Flurival"
+        ],
+        "sintomasRelatados": [
+            "Dor de cabeça",
+            "Resfriado"
+        ],
+        "anotacaoMedica": "Paciente com dor de cabeça e resfriado, beber muito agua e ficar de repouso por 2 dias"
+      },
+
+      {
+        "medico": {
+          "nome": "Nome do Médico 2",
+          "foto": "url_da_foto_do_medico_2.jpg"
+        },
+        "data": "2023-12-05",
+        "remediosPrescritos": [
+          "Remédio A",
+          "Remédio B"
+        ],
+        "sintomasRelatados": [
+          "Sintoma X",
+          "Sintoma Y"
+        ],
+        "anotacaoMedica": "Anotações do médico 2 sobre a consulta."
+      }
+      
+    ]
+}
+  

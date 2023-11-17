@@ -1,0 +1,54 @@
+.container {
+  background-color: #68a797;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.container .logo {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+.container .logar {
+  padding: 2rem;
+}
+.container input {
+  width: 100%;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid black;
+  font-size: 2rem;
+  padding: 0.4rem;
+}
+.container h2 {
+  padding: 1rem 0;
+}
+.container .button {
+  padding: 2rem;
+}
+.container .input_button {
+  border: none;
+  border-radius: 5px;
+  background-color: #049DBF;
+  width: 100%;
+  height: 3rem;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}/*# sourceMappingURL=medico.module.css.map */
