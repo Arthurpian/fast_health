@@ -12,4 +12,19 @@
   width: 90%;
   border: 3px solid #506175;
   border-radius: 5px;
+}
+.container .consulta {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.container .consulta .nomes {
+  display: flex;
+  padding: 0 2rem;
+}
+.container .consulta .nomes p {
+  padding: 0 2rem;
+}
+.container .medicoInfo {
+  display: flex;
 }/*# sourceMappingURL=consultas.module.css.map */

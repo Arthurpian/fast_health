@@ -1,5 +1,4 @@
 .container {
-<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,12 +75,4 @@
     width: auto;
     padding: 0 0.5rem;
   }
-=======
-  display: flexs;
-  padding: 0 45%;
-}
-.container .opcoes {
-  display: flex;
-  flex-direct: column;
->>>>>>> 7a940c3710346e1c6229cb01b052b7a1708f8d5c
 }/*# sourceMappingURL=perfilPaciente.module.css.map */
