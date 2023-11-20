@@ -7,38 +7,35 @@
   align-items: center;
 }
 .container .menu {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  padding: 2rem;
   background: #fff;
-  height: 80vh;
   width: 90%;
   border: 3px solid #506175;
   border-radius: 5px;
   overflow-y: auto;
 }
-.container .consulta {
-  padding: 1rem;
+.container .menu .exames {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80vh;
+  width: 100%;
+  overflow-y: auto;
 }
-.container .consulta .medicoInfo {
+.container .menu .exames .exameInfo .grupo {
   display: flex;
   align-items: center;
 }
-.container .consulta .nomes {
-  display: flex;
-  align-items: center;
-  padding: 0 2rem;
+.container .menu .exames .exameInfo .grupo img {
+  height: 4rem;
+  padding: 2rem;
 }
-.container .consulta .nomes .nome_medico {
-  width: 250px;
-}
-.container .consulta .nomes h2 {
-  width: 200px;
+.container .menu .exames .exameInfo .grupo h1 {
   padding: 0 1rem;
   font-size: 1.5rem;
   font-weight: 700;
 }
-.container .consulta button {
+.container .menu .exames .exameInfo .grupo button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,33 +47,26 @@
   border: none;
   cursor: pointer;
 }
-.container .consulta img {
-  width: 30px;
-  border: 3px solid black;
-  border-radius: 5px;
-}
-.container .detalhes {
-  padding: 1rem;
-}
-.container .detalhes p {
-  font-size: 1.2em !important;
-  color: black;
+.container .menu .detalhes {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
 }
 
 @media screen and (max-width: 1024px) {
-  .container .menu {
+  .container .menu .exames {
     flex-wrap: nowrap;
   }
 }
 @media screen and (max-width: 768px) {
-  .medicoInfo {
+  .exameInfo {
     flex-direction: column;
   }
-  .medicoInfo .nomes {
+  .exameInfo .grupo {
     flex-direction: column;
     text-align: center;
   }
-  .medicoInfo .nomes h2 {
+  .exameInfo .grupo h1 {
     margin: 0.5rem;
   }
-}/*# sourceMappingURL=consultas.module.css.map */
+}/*# sourceMappingURL=exames.module.css.map */

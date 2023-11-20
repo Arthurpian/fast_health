@@ -1,0 +1,103 @@
+.container {
+  background: #68a797;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .menu {
+  padding: 2rem;
+  background: #fff;
+  width: 90%;
+  height: 80vh;
+  border: 3px solid #506175;
+  border-radius: 5px;
+}
+.container .menu .consultas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 80vh;
+  width: 100%;
+  overflow-y: auto;
+}
+.container .menu .consultas .consultas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.container .menu .consultas .consultaInfo .grupo {
+  display: flex;
+  align-items: center;
+}
+.container .menu .consultas .consultaInfo .grupo h1 {
+  padding: 1rem;
+  width: 150px;
+  text-align: center;
+}
+.container .menu .consultas .consultaInfo .grupo img {
+  height: 4rem;
+  padding: 2rem;
+}
+.container .menu .consultas .consultaInfo .grupo button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 40px;
+  height: 40px;
+  background: #76bfac;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+.container .menu .consultas .consultaInfo .alteracao {
+  display: flex;
+  justify-content: center;
+}
+.container .menu .consultas .consultaInfo .alteracao input {
+  height: 60px;
+  padding: 0 2rem;
+}
+.container .menu .consultas .consultaInfo .alteracao button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100px;
+  height: 60px;
+  background: #76bfac;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+.container .menu .consultas .consultaInfo .detalhes {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+.container .menu .consultas .consultaInfo .detalhes h1 {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .container .menu .consultas {
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .consultaInfo {
+    flex-direction: column;
+  }
+  .consultaInfo .grupo {
+    flex-direction: column;
+    text-align: center;
+  }
+  .consultaInfo .grupo h1 {
+    padding: 0.5rem 0 !important;
+  }
+  .consultaInfo .grupo img {
+    padding: 2rem 0 !important;
+  }
+}/*# sourceMappingURL=marcarConsulta.module.css.map */

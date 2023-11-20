@@ -12,10 +12,10 @@ function PerfilPaciente(){
                     <button className='button'><Link to="/paciente/perfil/consultas">Consultas</Link></button>
                 </div>
                 <div className={styled.categorias}>
-                    <button className='button'><Link to="/">Exames</Link></button>
+                    <button className='button'><Link to="/paciente/perfil/exames">Exames</Link></button>
                 </div>
                 <div className={styled.categorias}>
-                    <button className='button'><Link to="/">Marca consulta</Link></button>
+                    <button className='button'><Link to="/paciente/perfil/marcarConsulta">Marca consulta</Link></button>
                 </div>
             </div>
             <div className={styled.ia}>

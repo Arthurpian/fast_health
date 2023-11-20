@@ -1,0 +1,66 @@
+.container
+    background: #68a797
+    width: 100%
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+    .menu
+        padding: 2rem
+        background: #fff
+        width: 90%
+        border: 3px solid #506175
+        border-radius: 5px
+        overflow-y: auto
+
+        .exames
+            display: flex
+            flex-direction: column
+            flex-wrap: wrap
+            height: 80vh
+            width: 100%
+            overflow-y: auto
+
+            .exameInfo
+                .grupo
+                    display: flex
+                    align-items: center
+                    img
+                        height: 4rem
+                        padding: 2rem
+                    h1 
+                        padding: 0 1rem
+                        font-size: 1.5rem
+                        font-weight: 700    
+                    button
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        padding: 1rem
+                        width: 40px
+                        height: 40px
+                        background: #76bfac
+                        font-size: 1.5rem
+                        border: none
+                        cursor: pointer
+
+        .detalhes
+            display: flex
+            flex-direction: column
+            padding: 0 2rem
+            
+@media screen and (max-width: 1024px)   
+    .container
+        .menu
+            .exames
+                flex-wrap: nowrap
+
+@media screen and (max-width: 768px)
+    .exameInfo 
+        flex-direction: column
+        .grupo
+            flex-direction: column
+            text-align: center
+            h1
+                margin: 0.5rem
