@@ -1,0 +1,47 @@
+.container 
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 100vh
+    background-color: #ecf3f1
+
+    .opcoes
+        .categorias
+            padding: 2rem
+            display: flex
+            justify-content: center
+
+        button
+            border: 5px solid #506175
+            border-radius: 5px
+            cursor: pointer
+            font-weight: 700
+            height: 4rem
+            width: 20vw  
+            font-size: 2.5rem  
+            text-align: center
+            background-color: #76bfac
+        
+            a
+                text-decoration: none
+                color: black
+        
+
+@media (min-width: 0px) and (max-width: 1525px)
+    .container
+        display: flex
+        flex-direction: column
+
+        
+        .opcoes
+            padding:  3rem 0 !important
+            width: 100%
+            align-items: center
+
+            button
+                font-size: 2rem
+                height: 4rem
+                width: 80vw
+                padding: 0 0.5rem
+            

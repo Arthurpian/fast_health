@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import style from '../../styles/exames/exames.module.css';
+import style from '../../styles/paciente/exames/exames.module.css';
 import API from '../../API/exames.json';
 
 function Exames() {

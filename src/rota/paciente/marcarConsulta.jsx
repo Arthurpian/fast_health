@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import style from '../../styles/marcarConsulta/marcarConsulta.module.css'
+import style from '../../styles/paciente/marcarConsulta/marcarConsulta.module.css'
 import API from '../../API/exames.json'
 
 function MarcarConsulta(){

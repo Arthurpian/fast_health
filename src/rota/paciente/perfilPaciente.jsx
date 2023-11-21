@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom'
-import styled from '../../styles/perfilPaciente/perfilPaciente.module.sass'
+import styled from '../../styles/paciente/perfilPaciente/perfilPaciente.module.css'
 
 import ia from '../../imgs/iaa.png'
 

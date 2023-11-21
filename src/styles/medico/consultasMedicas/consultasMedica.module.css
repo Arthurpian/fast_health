@@ -1,0 +1,99 @@
+.container {
+  background: #68a797;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .medicoInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.container .medicoInfo img {
+  width: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.container .medicoInfo h2 {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.container .menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: #fff;
+  height: 80vh;
+  width: 90%;
+  border: 3px solid #506175;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+.container .consulta {
+  padding: 1rem;
+}
+.container .consulta .pacienteInfo {
+  display: flex;
+  align-items: center;
+}
+.container .consulta .pacienteInfo img {
+  width: 30px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.container .consulta .pacienteInfo .nomes {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+.container .consulta .pacienteInfo .nomes .nome_paciente {
+  width: 250px;
+}
+.container .consulta .pacienteInfo .nomes h2 {
+  width: 200px;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.container .consulta .pacienteInfo button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 40px;
+  height: 40px;
+  background: #76bfac;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+.container .consulta .detalhes {
+  padding: 1rem;
+}
+.container .consulta .detalhes p {
+  font-size: 1.2em !important;
+  color: black;
+}
+
+@media screen and (max-width: 1024px) {
+  .container .menu {
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .medicoInfo {
+    flex-direction: column;
+  }
+  .pacienteInfo {
+    flex-direction: column;
+  }
+  .pacienteInfo .nomes {
+    flex-direction: column;
+    text-align: center;
+    margin: 0.5rem;
+  }
+}/*# sourceMappingURL=consultasMedica.module.css.map */

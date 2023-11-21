@@ -1,0 +1,92 @@
+.container
+    background: #68a797
+    width: 100%
+    height: 100vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+    form
+        display: flex
+        flex-direction: column
+        background: #fff
+        height: 95vh
+        width: 95%
+        border: 3px solid #506175
+        border-radius: 5px
+        overflow-y: auto
+    
+        .cpf
+            display: flex
+            justify-content: center
+            padding: 2rem
+            font-size: 1.5rem
+            input 
+                padding: 0.2rem
+        .cpfNotFound
+            border-color: red
+            color: red
+        
+        .part1
+            display: flex
+            justify-content: center
+            align-items: center
+            padding: 1rem 0
+            .perfil
+                flex-direction: column
+                div
+                    width: 150px
+                    padding: 0.5rem
+                    input 
+                        padding: 0.3rem
+                .alergia
+                    padding: 1rem
+                    input 
+                        padding: 0.3rem
+                        
+        .part2
+            display: flex
+            width: 100%
+            justify-content: center
+            label
+                display: flex
+                flex-direction: column
+                padding: 1rem
+                gap: 1.4rem
+                input 
+                    padding: 0.3rem
+                    font-size: 2rem
+            .descricao
+                input
+                    height: 100%
+        
+        .part3
+            display: flex
+            flex-direction: column
+            padding: 1rem
+            input
+                height: 70px
+                font-size: 2rem
+        button
+            display: flex
+            justify-content: center
+            align-items: center
+            padding: 1rem
+            width: 100%
+            background: #76bfac
+            font-size: 1.5rem
+            border: none
+            cursor: pointer
+
+
+@media screen and (max-width: 927px)   
+    .part2
+        display: flex
+        flex-direction: column
+        .descricao
+            input
+                height: 200px !important
+    .part3
+        input
+            height: 200px! important
+                

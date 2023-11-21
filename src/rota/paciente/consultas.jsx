@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import style from '../../styles/consultas/consultas.module.css';
+import style from '../../styles/paciente/consultas/consultas.module.css';
 import API from '../../API/paciente.json';
 
 function Consultas() {

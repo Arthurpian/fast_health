@@ -1,0 +1,104 @@
+.container {
+  background: #68a797;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  height: 95vh;
+  width: 95%;
+  border: 3px solid #506175;
+  border-radius: 5px;
+  overflow-y: auto;
+}
+.container form .cpf {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+.container form .cpf input {
+  padding: 0.2rem;
+}
+.container form .cpfNotFound {
+  border-color: red;
+  color: red;
+}
+.container form .part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+.container form .part1 .perfil {
+  flex-direction: column;
+}
+.container form .part1 .perfil div {
+  width: 150px;
+  padding: 0.5rem;
+}
+.container form .part1 .perfil div input {
+  padding: 0.3rem;
+}
+.container form .part1 .perfil .alergia {
+  padding: 1rem;
+}
+.container form .part1 .perfil .alergia input {
+  padding: 0.3rem;
+}
+.container form .part2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.container form .part2 label {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1.4rem;
+}
+.container form .part2 label input {
+  padding: 0.3rem;
+  font-size: 2rem;
+}
+.container form .part2 .descricao input {
+  height: 100%;
+}
+.container form .part3 {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.container form .part3 input {
+  height: 70px;
+  font-size: 2rem;
+}
+.container form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  background: #76bfac;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 927px) {
+  .part2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .part2 .descricao input {
+    height: 200px !important;
+  }
+  .part3 input {
+    height: 200px !important;
+  }
+}/*# sourceMappingURL=iniciarConsulta.module.css.map */

@@ -1,0 +1,52 @@
+[
+    {
+      "cpf": "11122233344",
+      "nome": "João Silva",
+      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
+      "idade": 30,
+      "peso": 70,
+      "altura": 1.75,
+      "tipoSanguineo": "A+",
+      "alergia" : ["Sol", "arroz" , "pizza"]
+      },
+    {
+      "cpf": "22233344455",
+      "nome": "Maria Oliveira",
+      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
+      "idade": 25,
+      "peso": 55,
+      "altura": 1.60,
+      "tipoSanguineo": "B-",
+      "alergia" : ["Sol", "arroz" , "pizza"]
+    },
+    {
+      "cpf": "33344455566",
+      "nome": "Carlos Souza",
+      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
+      "idade": 45,
+      "peso": 80,
+      "altura": 1.80,
+      "tipoSanguineo": "AB+",
+      "alergia" : ["Sol", "arroz" , "pizza"]
+    },
+    {
+      "cpf": "44455566677",
+      "nome": "Ana Santos",
+      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
+      "idade": 28,
+      "peso": 60,
+      "altura": 1.65,
+      "tipoSanguineo": "O-",
+      "alergia" : ["Sol", "arroz" , "pizza"]
+    },
+    {
+      "cpf": "55566677788",
+      "nome": "Paulo Mendes",
+      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
+      "idade": 35,
+      "peso": 75,
+      "altura": 1.70,
+      "tipoSanguineo": "A-",
+      "alergia" : ["Sol", "arroz" , "piza"]
+    }
+  ]

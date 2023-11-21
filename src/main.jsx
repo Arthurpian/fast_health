@@ -11,6 +11,8 @@ import PerfilPaciente from './rota/paciente/perfilPaciente.jsx';
 import Exames from './rota/paciente/exames.jsx';
 import Consultas from './rota/paciente/consultas.jsx';
 import MarcarConsulta from './rota/paciente/marcarConsulta.jsx';
+import InicarConsulta from './rota/medico/iniciarConsulta.jsx';
+import ConsultasMedicas from './rota/medico/consultasMedico.jsx';
 import "./styles/main/main.module.css";
 
 const isAuthenticated = () => {
@@ -51,6 +53,14 @@ const router = createBrowserRouter([
       { 
         path: "/medico/perfil", 
         element: <PrivateRoute element={<PerfilMedico />} checkAuthentication={isMedico} />
+      },
+      { 
+        path: "/medico/perfil/iniciarConsulta", 
+        element: <PrivateRoute element={<InicarConsulta />} checkAuthentication={isMedico} />
+      },
+      { 
+        path: "/medico/perfil/consultasMedicas", 
+        element: <PrivateRoute element={<ConsultasMedicas />} checkAuthentication={isMedico} />
       },
     ],
   },
