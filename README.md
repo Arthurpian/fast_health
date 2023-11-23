@@ -24,10 +24,10 @@ Visualize exames realizados, resultados e descrições.
 #### [Agenda](#) 
 Próximas consultas agendadas. (Em desenvolvimento para marcação de consultas)
 
-### [Logout](#)
+#### [Logout](#)
 Realize logout, limpe `sessionScore` e redirecione para a página inicial.
 
-### [Fazer Consulta](#)
+#### [Fazer Consulta](#)
 Estamos desenvolvendo integração com uma API de sintomas em Python e aplicando-a em JavaScript.
 
 ### [Login Médico](#)
