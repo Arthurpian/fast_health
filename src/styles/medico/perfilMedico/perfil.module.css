@@ -10,6 +10,8 @@
   padding: 2rem;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 .container .opcoes button {
   border: 5px solid #506175;

@@ -17,6 +17,14 @@
   border-radius: 5px;
   overflow-y: auto;
 }
+.container .menu .titulo {
+  display: flex;
+  justify-content: center;
+}
+.container .menu .titulo h1 {
+  font-size: 2rem;
+  padding: 1rem;
+}
 .container .consulta {
   padding: 1rem;
 }

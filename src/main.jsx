@@ -10,9 +10,12 @@ import PerfilMedico from '../src/rota/medico/perfilMedico.jsx'
 import PerfilPaciente from './rota/paciente/perfilPaciente.jsx'; 
 import Exames from './rota/paciente/exames.jsx';
 import Consultas from './rota/paciente/consultas.jsx';
-import MarcarConsulta from './rota/paciente/marcarConsulta.jsx';
+import AgendaPaciente from './rota/paciente/agendaPaciente.jsx';
 import InicarConsulta from './rota/medico/iniciarConsulta.jsx';
 import ConsultasMedicas from './rota/medico/consultasMedico.jsx';
+import AgendaMedico from './rota/medico/agendaMedico.jsx';
+import Proposta from './rota/proposta.jsx';
+
 import "./styles/main/main.module.css";
 
 const isAuthenticated = () => {
@@ -34,6 +37,7 @@ const router = createBrowserRouter([
       { path: "/", element: <Home /> },
       { path: "/paciente", element: <Paciente /> },
       { path: "/medico", element: <Medico /> },
+      { path: "/proposta", element: <Proposta /> },
       { 
         path: "/paciente/perfil",
         element: <PrivateRoute element={<PerfilPaciente />} checkAuthentication={isAuthenticated} />
@@ -47,8 +51,8 @@ const router = createBrowserRouter([
         element: <PrivateRoute element={<Exames />} checkAuthentication={isAuthenticated} />
       },
       { 
-        path: "/paciente/perfil/marcarConsulta", 
-        element: <PrivateRoute element={<MarcarConsulta />} checkAuthentication={isAuthenticated} />
+        path: "/paciente/perfil/agendaPaciente", 
+        element: <PrivateRoute element={<AgendaPaciente />} checkAuthentication={isAuthenticated} />
       },
       { 
         path: "/medico/perfil", 
@@ -61,6 +65,10 @@ const router = createBrowserRouter([
       { 
         path: "/medico/perfil/consultasMedicas", 
         element: <PrivateRoute element={<ConsultasMedicas />} checkAuthentication={isMedico} />
+      },
+      { 
+        path: "/medico/perfil/agendaMedica", 
+        element: <PrivateRoute element={<AgendaMedico />} checkAuthentication={isMedico} />
       },
     ],
   },

@@ -20,7 +20,6 @@
 }
 .container .menu .titulo h1 {
   font-size: 2rem;
-  padding: 1rem;
 }
 .container .menu .consultas {
   display: flex;
@@ -108,4 +107,4 @@
   .consultaInfo .grupo img {
     padding: 2rem 0 !important;
   }
-}/*# sourceMappingURL=marcarConsulta.module.css.map */
+}/*# sourceMappingURL=agendaMedica.module.css.map */

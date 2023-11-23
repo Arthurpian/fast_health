@@ -1,52 +1,194 @@
 [
-    {
-      "cpf": "11122233344",
-      "nome": "João Silva",
-      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
-      "idade": 30,
-      "peso": 70,
-      "altura": 1.75,
-      "tipoSanguineo": "A+",
-      "alergia" : ["Sol", "arroz" , "pizza"]
+  {
+    "cpf": "11122233344",
+    "nome": "João Silva",
+    "foto": "https://i.im.ge/2023/11/23/AKViXL.Joao.jpg",
+    "idade": 72,
+    "peso": 70,
+    "altura": 1.75,
+    "tipoSanguineo": "A+",
+    "alergia": ["Sol", "arroz", "pizza"],
+    "consultas": [
+      {
+        "medico": {
+          "nome_medico": "Marcio Pereira Santos",
+          "CRM": "01",
+          "foto": "https://i.im.ge/2023/11/20/AyUgXm.Marcio-Pereira-Santos.jpg"
+        },
+        "data": "01/11/2023",
+        "remediosPrescritos": ["Doralgina", "Flurival"],
+        "sintomasRelatados": ["Dor de cabeça", "Resfriado"],
+        "anotacaoMedica": "Paciente com dor de cabeça e resfriado, beber muita água"
       },
-    {
-      "cpf": "22233344455",
-      "nome": "Maria Oliveira",
-      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
-      "idade": 25,
-      "peso": 55,
-      "altura": 1.60,
-      "tipoSanguineo": "B-",
-      "alergia" : ["Sol", "arroz" , "pizza"]
-    },
-    {
-      "cpf": "33344455566",
-      "nome": "Carlos Souza",
-      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
-      "idade": 45,
-      "peso": 80,
-      "altura": 1.80,
-      "tipoSanguineo": "AB+",
-      "alergia" : ["Sol", "arroz" , "pizza"]
-    },
-    {
-      "cpf": "44455566677",
-      "nome": "Ana Santos",
-      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
-      "idade": 28,
-      "peso": 60,
-      "altura": 1.65,
-      "tipoSanguineo": "O-",
-      "alergia" : ["Sol", "arroz" , "pizza"]
-    },
-    {
-      "cpf": "55566677788",
-      "nome": "Paulo Mendes",
-      "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg",
-      "idade": 35,
-      "peso": 75,
-      "altura": 1.70,
-      "tipoSanguineo": "A-",
-      "alergia" : ["Sol", "arroz" , "piza"]
-    }
-  ]
+      {
+        "medico": {
+          "nome_medico": "Larrisa Lorem",
+          "CRM": "03",
+          "foto": "https://i.im.ge/2023/11/20/AyhF0M.Rosa-dias-Marcertas.jpg"
+        },
+        "data": "10/12/2022",
+        "remediosPrescritos": ["Paracetamol"],
+        "sintomasRelatados": ["Febre"],
+        "anotacaoMedica": "Paciente com febre, repouso recomendado"
+      }
+    ],
+    "exames": [
+      {
+        "local": {
+          "logo": "https://play-lh.googleusercontent.com/JzQcxOY4qsloaCytiblqHGmm5OAR3F2kJIJKDRzXZ6n1HQk0TWe7t-x1k876MH0bN48=w240-h480-rw",
+          "empresa": "Paulista",
+          "data_realizacao": "01/11/2023"
+        },
+        "resultados": [
+          {"nome": "Colesterol", "valor": 180, "descricao": "Nível normal"},
+          {"nome": "Ureia", "valor": 25, "descricao": "Nível normal"},
+          {"nome": "Potássio", "valor": 4.2, "descricao": "Nível normal"},
+          {"nome": "Glicose", "valor": 90, "descricao": "Nível normal"},
+          {"nome": "Hemoglobina", "valor": 14, "descricao": "Nível normal"}
+        ]
+      },
+      {
+        "local": {
+          "logo": "https://play-lh.googleusercontent.com/JzQcxOY4qsloaCytiblqHGmm5OAR3F2kJIJKDRzXZ6n1HQk0TWe7t-x1k876MH0bN48=w240-h480-rw",
+          "empresa": "Paulista",
+          "data_realizacao": "10/06/2023"
+        },
+        "resultados": [
+          {"nome": "Colesterol", "valor": 170, "descricao": "Nível normal"},
+          {"nome": "Ureia", "valor": 28, "descricao": "Nível normal"},
+          {"nome": "Potássio", "valor": 4.0, "descricao": "Nível normal"},
+          {"nome": "Glicose", "valor": 95, "descricao": "Nível normal"},
+          {"nome": "Hemoglobina", "valor": 15, "descricao": "Nível normal"}
+        ]
+      }
+    ]
+  },
+  {
+    "cpf": "22233344455",
+    "nome": "Maria Oliveira",
+    "foto": "https://i.im.ge/2023/11/23/AKVLwT.Maria.jpg",
+    "idade": 25,
+    "peso": 55,
+    "altura": 1.60,
+    "tipoSanguineo": "B-",
+    "alergia": ["Poeira", "Amendoim"],
+    "consultas": [
+      {
+        "medico": {
+          "nome_medico": "Marcio Pereira Santos",
+          "CRM": "01",
+          "foto": "https://i.im.ge/2023/11/20/AyUgXm.Marcio-Pereira-Santos.jpg"
+        },
+        "data": "01/11/2023",
+        "remediosPrescritos": ["Doralgina", "Flurival"],
+        "sintomasRelatados": ["Dor de cabeça", "Resfriado"],
+        "anotacaoMedica": "Paciente com dor de cabeça e resfriado, beber muita água"
+      },
+      {
+        "medico": {
+          "nome_medico": "Larrisa Lorem",
+          "CRM": "03",
+          "foto": "https://i.im.ge/2023/11/20/AyUgXm.Larrisa-Lorem.jpg"
+        },
+        "data": "10/12/2022",
+        "remediosPrescritos": ["Paracetamol"],
+        "sintomasRelatados": ["Febre"],
+        "anotacaoMedica": "Paciente com febre, repouso recomendado"
+      }
+    ],
+    "exames": [
+      {
+        "local": {
+          "logo": "https://play-lh.googleusercontent.com/JzQcxOY4qsloaCytiblqHGmm5OAR3F2kJIJKDRzXZ6n1HQk0TWe7t-x1k876MH0bN48=w240-h480-rw",
+          "empresa": "Paulista",
+          "data_realizacao": "01/11/2023"
+        },
+        "resultados": [
+          {"nome": "Colesterol", "valor": 180, "descricao": "Nível normal"},
+          {"nome": "Ureia", "valor": 25, "descricao": "Nível normal"},
+          {"nome": "Potássio", "valor": 4.2, "descricao": "Nível normal"},
+          {"nome": "Glicose", "valor": 90, "descricao": "Nível normal"},
+          {"nome": "Hemoglobina", "valor": 14, "descricao": "Nível normal"}
+        ]
+      },
+      {
+        "local": {
+          "logo": "https://play-lh.googleusercontent.com/JzQcxOY4qsloaCytiblqHGmm5OAR3F2kJIJKDRzXZ6n1HQk0TWe7t-x1k876MH0bN48=w240-h480-rw",
+          "empresa": "Paulista",
+          "data_realizacao": "10/06/2023"
+        },
+        "resultados": [
+          {"nome": "Colesterol", "valor": 170, "descricao": "Nível normal"},
+          {"nome": "Ureia", "valor": 28, "descricao": "Nível normal"},
+          {"nome": "Potássio", "valor": 4.0, "descricao": "Nível normal"},
+          {"nome": "Glicose", "valor": 95, "descricao": "Nível normal"},
+          {"nome": "Hemoglobina", "valor": 15, "descricao": "Nível normal"}
+        ]
+      }
+    ]
+  },
+  {
+    "cpf": "33344455566",
+    "nome": "Carlos Pereira",
+    "foto": "https://i.im.ge/2023/11/23/AKVUZc.carlos.jpg",
+    "idade": 28,
+    "peso": 80,
+    "altura": 1.80,
+    "tipoSanguineo": "O+",
+    "alergia": ["Abacaxi", "Frutos do mar"],
+    "consultas": [
+      {
+        "medico": {
+          "nome_medico": "Marcio Pereira Santos",
+          "CRM": "01",
+          "foto": "https://i.im.ge/2023/11/20/AyUgXm.Marcio-Pereira-Santos.jpg"
+        },
+        "data": "01/11/2023",
+        "remediosPrescritos": ["Doralgina", "Flurival"],
+        "sintomasRelatados": ["Dor de cabeça", "Resfriado"],
+        "anotacaoMedica": "Paciente com dor de cabeça e resfriado, beber muita água"
+      },
+      {
+        "medico": {
+          "nome_medico": "Larrisa Lorem",
+          "CRM": "03",
+          "foto": "https://i.im.ge/2023/11/20/AyUgXm.Larrisa-Lorem.jpg"
+        },
+        "data": "10/12/2022",
+        "remediosPrescritos": ["Paracetamol"],
+        "sintomasRelatados": ["Febre"],
+        "anotacaoMedica": "Paciente com febre, repouso recomendado"
+      }
+    ],
+    "exames": [
+      {
+        "local": {
+          "logo": "https://play-lh.googleusercontent.com/JzQcxOY4qsloaCytiblqHGmm5OAR3F2kJIJKDRzXZ6n1HQk0TWe7t-x1k876MH0bN48=w240-h480-rw",
+          "empresa": "Paulista",
+          "data_realizacao": "01/11/2023"
+        },
+        "resultados": [
+          {"nome": "Colesterol", "valor": 180, "descricao": "Nível normal"},
+          {"nome": "Ureia", "valor": 25, "descricao": "Nível normal"},
+          {"nome": "Potássio", "valor": 4.2, "descricao": "Nível normal"},
+          {"nome": "Glicose", "valor": 90, "descricao": "Nível normal"},
+          {"nome": "Hemoglobina", "valor": 14, "descricao": "Nível normal"}
+        ]
+      },
+      {
+        "local": {
+          "logo": "https://play-lh.googleusercontent.com/JzQcxOY4qsloaCytiblqHGmm5OAR3F2kJIJKDRzXZ6n1HQk0TWe7t-x1k876MH0bN48=w240-h480-rw",
+          "empresa": "Paulista",
+          "data_realizacao": "10/06/2023"
+        },
+        "resultados": [
+          {"nome": "Colesterol", "valor": 170, "descricao": "Nível normal"},
+          {"nome": "Ureia", "valor": 28, "descricao": "Nível normal"},
+          {"nome": "Potássio", "valor": 4.0, "descricao": "Nível normal"},
+          {"nome": "Glicose", "valor": 95, "descricao": "Nível normal"},
+          {"nome": "Hemoglobina", "valor": 15, "descricao": "Nível normal"}
+        ]
+      }
+    ]
+  }
+]

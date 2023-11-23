@@ -29,8 +29,7 @@ function Consultas() {
       <div className={style.container}>
         <div className={style.menu}>
             <div className={style.medicoInfo}>
-                <img src={consultasMarcio[0].medico.foto} alt={`Foto de ${consultasMarcio[0].medico.nome}`} />
-                <h2>{consultasMarcio[0].medico.nome}</h2>
+                <h1>Minhas Consultas</h1>
             </div>
           {consultasMarcio.map((consulta, index) => (
             <div key={index} className={style.consulta}>

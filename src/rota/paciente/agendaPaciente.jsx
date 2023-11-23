@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import style from '../../styles/paciente/marcarConsulta/marcarConsulta.module.css'
-import API from '../../API/exames.json'
+import API from '../../API/agendaPaciente.json'
 
-function MarcarConsulta(){
+function AgendaPaciente(){
     const [data, setData] = useState(null);
     const [expanded, setExpanded] = useState([]);
   
@@ -21,6 +21,9 @@ function MarcarConsulta(){
         <>
         <div className={style.container}>
             <div className={style.menu}>
+                <div className={style.titulo}>
+                    <h1>Meus exames</h1>
+                </div>
                     {data &&
                     data.pacientes.map((paciente, index)=>(
                         <div key={index} className={style.consultas}>
@@ -52,4 +55,4 @@ function MarcarConsulta(){
     )
 }
 
-export default MarcarConsulta
+export default AgendaPaciente

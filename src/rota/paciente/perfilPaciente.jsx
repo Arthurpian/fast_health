@@ -1,30 +1,46 @@
-import {Link} from 'react-router-dom'
-import styled from '../../styles/paciente/perfilPaciente/perfilPaciente.module.css'
+import { Link, useNavigate } from 'react-router-dom';
+import styled from '../../styles/paciente/perfilPaciente/perfilPaciente.module.css';
+import ia from '../../imgs/iaa.png';
 
-import ia from '../../imgs/iaa.png'
+function PerfilPaciente() {
+  const navigate = useNavigate();
 
-function PerfilPaciente(){
-    return(
-        <>
-        <div className={styled.container}>
-            <div className={styled.opcoes}>
-                <div className={styled.categorias}>
-                    <button className='button'><Link to="/paciente/perfil/consultas">Consultas</Link></button>
-                </div>
-                <div className={styled.categorias}>
-                    <button className='button'><Link to="/paciente/perfil/exames">Exames</Link></button>
-                </div>
-                <div className={styled.categorias}>
-                    <button className='button'><Link to="/paciente/perfil/marcarConsulta">Marca consulta</Link></button>
-                </div>
-            </div>
-            <div className={styled.ia}>
-                <img src={ia} alt='ia'></img>
-                <button className='button'><Link className={styled.link} to="/">Fazer teste</Link></button>
-            </div>
+  const handleLogout = () => {
+    // Limpar dados de autenticação
+    sessionStorage.removeItem('userData');
+    sessionStorage.removeItem('senhaData');
+
+    // Redirecionar para a página de login
+    navigate('/'); // Substitua '/login' pelo caminho da sua página de login
+  };
+
+  return (
+    <>
+      <div className={styled.container}>
+        <div className={styled.opcoes}>
+          <div className={styled.categorias}>
+            <Link to="/paciente/perfil/consultas">
+              <button className='button'>Consultas</button>
+            </Link>
+            <Link to="/paciente/perfil/exames">
+              <button className='button'>Exames</button>
+            </Link>
+            <Link to="/paciente/perfil/agendaPaciente">
+              <button className='button'>Agenda</button>
+            </Link>
+            <button onClick={handleLogout}>Logout</button>
+          </div>
+
         </div>
-        </>
-    )
+        <div className={styled.ia}>
+          <img src={ia} alt='ia'></img>
+          <Link to="">
+            <button className='button'>Fazer teste</button>
+          </Link>
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default PerfilPaciente
+export default PerfilPaciente;

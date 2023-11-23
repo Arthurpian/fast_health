@@ -31,12 +31,17 @@ function Home() {
   return (
     <>
       <div className={style.container}>
-        <div className={style.paciente}>
-          <button className={style.paciente_button} onClick={handlePacienteClick}>Paciente</button>
+        <div className={style.proposta}>
+          <a href='/proposta'><button className={style.proposta}>Proposta</button></a>
         </div>
-        <div className={style.medico}>
-          <button className={style.medico_button} onClick={handleMedicoClick}>Médico</button>
-        </div>
+        <main>
+          <div className={style.paciente}>
+            <button className={style.paciente_button} onClick={handlePacienteClick}>Paciente</button>
+          </div>
+          <div className={style.medico}>
+            <button className={style.medico_button} onClick={handleMedicoClick}>Médico</button>
+          </div>
+        </main>
       </div>
     </>
   );

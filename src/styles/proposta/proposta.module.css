@@ -1,0 +1,98 @@
+.container {
+  background: #68a797;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: 
+  'header header'
+  'tema solucao'
+  'vantagem vantagem';
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: header;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+.tema{
+  grid-area: tema;
+}
+
+.tema div{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.imagem{
+  width: 50%;
+}
+
+.tema .nome_soluçao{
+  display: flex;
+ 
+}
+
+.nome_soluçao h1{
+  text-align: center;
+  
+}
+
+.solucao{
+  grid-area: solucao;
+}
+
+.solucao div{
+  padding: 2rem;
+}
+
+.vantagem{
+  grid-area: vantagem;
+  padding: 0 2rem;
+}
+
+.vantagem div{
+  display: flex;
+  flex-direction: column;
+}
+
+h4{
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+@media screen and (min-width: 1580px) {
+  .container{
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 1580px) {
+  .container {
+    grid-template-areas: 
+    'header'
+    'tema'
+    'solucao'
+    'vantagem'
+    'vantagem';
+  }
+
+  .header{
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+  .header div h1{
+    font-size: 26px;
+    text-align: center;
+    padding: 0.5rem 0;
+  }
+
+  .nome_soluçao{
+    flex-direction: column;
+  }
+}
+

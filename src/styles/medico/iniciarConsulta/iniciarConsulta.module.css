@@ -6,15 +6,17 @@
   justify-content: center;
   align-items: center;
 }
-.container form {
+.container main {
   display: flex;
-  flex-direction: column;
   background: #fff;
   height: 95vh;
   width: 95%;
   border: 3px solid #506175;
   border-radius: 5px;
   overflow-y: auto;
+}
+.container form {
+  width: 80%;
 }
 .container form .cpf {
   display: flex;
@@ -89,7 +91,63 @@
   border: none;
   cursor: pointer;
 }
+.container .historico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  widows: 20%;
+}
+.container .historico .consulta {
+  padding: 1rem;
+}
+.container .historico .consulta .medicoInfo {
+  display: flex;
+  align-items: center;
+}
+.container .historico .consulta .nomes {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+}
+.container .historico .consulta .nomes h2 {
+  width: 200px;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.container .historico .consulta button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 40px;
+  height: 40px;
+  background: #76bfac;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+.container .historico .consulta img {
+  width: 30px;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+.container .historico .detalhes {
+  max-width: 408px;
+}
+.container .historico .detalhes p {
+  justify-content: flex-start;
+  font-size: 1.2em !important;
+  padding: 0.5rem;
+  color: black;
+}
 
+@media screen and (max-width: 1280px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 @media screen and (max-width: 927px) {
   .part2 {
     display: flex;
