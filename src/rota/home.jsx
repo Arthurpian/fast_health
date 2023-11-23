@@ -32,7 +32,7 @@ function Home() {
     <>
       <div className={style.container}>
         <div className={style.proposta}>
-          <a href='/proposta'><button className={style.proposta}>Proposta</button></a>
+          <Link to='/proposta'><button className={style.proposta}>Proposta</button></Link>
         </div>
         <main>
           <div className={style.paciente}>
