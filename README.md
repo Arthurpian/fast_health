@@ -1,6 +1,6 @@
 # Fast Health
 
-Simplificando sua jornada de saúde, desde a centralização do histórico médico até o agendamento eficiente, promovendo eficiência, transparência e satisfação em cada passo.
+O propósito fundamental da Fast Health é oferecer uma solução inovadora que otimize o gerenciamento de informações médicas e aprimore a experiência do paciente. A plataforma visa centralizar o histórico médico, proporcionando fácil acesso a informações pessoais, detalhes de consultas passadas, resultados de exames e agendamentos futuros. A abordagem intuitiva do Fast Health busca simplificar a interação entre pacientes e profissionais de saúde, tornando o processo mais transparente e acessível.
 
 ## [Dupla](#)
 Arthur Bessa Pian - RM99215 <br/>
