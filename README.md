@@ -2,6 +2,10 @@
 
 Simplificando sua jornada de saúde, desde a centralização do histórico médico até o agendamento eficiente, promovendo eficiência, transparência e satisfação em cada passo.
 
+## [Dupla](#)
+Arthur Bessa Pian - RM99215
+Márcio Gastaldi - RM98811
+
 ## [Site](#)
 
 ### [Proposta](#)
